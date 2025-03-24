@@ -10,11 +10,18 @@
 
 # MAIN DOCKER COMMANDS
 - docker images (show all images)
-- docker run <application> (run a specific application)
+- docker pull (pull repository to local envrionment)
+- docker run <application> (create a new container from image and run a specific application)
+- docker run -d <application> (run in detach mode)
+- docker run -p<host_port>:<container_port> <application>(port binding)
+- docker run -d -p<host_port>:<container_port> --name <user_defined_container_name> 
 - docker ps (show all running containers)
 - docker ps -a (show all running and stopped container)
-- docker run -d <application> (run in detach mode)
-- docker start <container_id>
+- docker start <container_id> ( will start the contianer with attributes docker run)
 - docker stop <container_id>
-- docker run -p <host_port>:<container_port> <application>(port binding)
+<image_name>(user defined container name)
+- docker logs <container_id> / docker logs <container_name>
+- docker exec -it <container_id> /bin/bash / docker exec -it <container_name> /bin/bash (to debug the container)
+- 
+
 
