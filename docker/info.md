@@ -17,11 +17,13 @@
 - docker run -d -p<host_port>:<container_port> --name <user_defined_container_name> 
 - docker ps (show all running containers)
 - docker ps -a (show all running and stopped container)
-- docker start <container_id> ( will start the contianer with attributes docker run)
+- docker start <container_id> ( will start the contianer with attributes of docker run)
 - docker stop <container_id>
 <image_name>(user defined container name)
 - docker logs <container_id> / docker logs <container_name>
 - docker exec -it <container_id> /bin/bash / docker exec -it <container_name> /bin/bash (to debug the container)
-- 
+- docker network ls (show all networks)
+- docker network create <network_name>
 
-
+# DOCKER NETWORK
+- Docker creates their isolated docker network where the containers runung.
