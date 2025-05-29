@@ -24,6 +24,8 @@
 - docker exec -it <container_id> /bin/bash / docker exec -it <container_name> /bin/bash (to debug the container)
 - docker network ls (show all networks)
 - docker network create <network_name>
+- docker build .
+- docker build -t <name> .
 
 # DOCKER NETWORK
 - Docker creates their isolated docker network where the containers runung.
