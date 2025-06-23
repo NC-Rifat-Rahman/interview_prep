@@ -29,3 +29,7 @@
 
 # DOCKER NETWORK
 - Docker creates their isolated docker network where the containers runung.
+
+# CONTAINER REGISTRY
+- a repository or collection of repositories used to store and access container images.
+- 
