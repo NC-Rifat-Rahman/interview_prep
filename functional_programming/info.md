@@ -17,3 +17,7 @@
 - Functions can modify the state of the application or have side effects.
 - Functions depend on other parts of the code.
 - These are unpredictable and can have a non-deterministic behavior and are harder to test, and maintain.
+
+# IMMUTABILITY
+- Values can not be changed.
+- Use Object.freeze for objects and arrays.
